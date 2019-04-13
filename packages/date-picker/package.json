@@ -1,0 +1,31 @@
+{
+  "name": "date-picker",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "xdeepakv <deepak.m.shrma@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc && cp src/translate.json lib/translate.json",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-intl": "^2.8.0",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "@types/react-intl": "^2.3.17"
+  }
+}
